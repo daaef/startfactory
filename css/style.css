@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .social-image{
     width: 100%;
 }
@@ -7,8 +12,17 @@
     align-items: center;
 }
 
+.swiper-wrapper .card{
+    margin: 20px 0;
+}
+
 .swiper-wrapper p{
-    margin: 0;
-    padding: 20px;
+    padding: 0 20px;
     color: #000000;
+}
+
+@media (max-width: 959px){
+    .d-flex{
+        flex-wrap: wrap;
+    }
 }
