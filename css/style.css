@@ -1,0 +1,14 @@
+.social-image{
+    width: 100%;
+}
+
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.swiper-wrapper p{
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+}
